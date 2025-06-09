@@ -1,9 +1,19 @@
 {
-  "mappings": [
-    "/content/universal-editor-getting-started-site/:/",
-    "/content/universal-editor-getting-started-site/metadata:/metadata.json"
-  ],
-  "includes": [
-    "/content/universal-editor-getting-started-site/"
-  ]
+    "mappings": [
+      "/content/universal-editor-getting-started-site/:/",
+      "/content/universal-editor-getting-started-site/configuration:/.helix/config.json",
+      "/content/universal-editor-getting-started-site/metadata:/metadata.json",
+      "/content/universal-editor-getting-started-site/configs:/configs.json",
+      "/content/universal-editor-getting-started-site/configs-stage:/configs-stage.json",
+      "/content/universal-editor-getting-started-site/configs-dev:/configs-dev.json",
+      "/content/universal-editor-getting-started-site/redirects:/redirects.json",
+      "/content/universal-editor-getting-started-site/placeholders:/placeholders.json",
+      "/content/universal-editor-getting-started-site/products/recommended-products:/products/recommended-products.json",
+      "/content/universal-editor-getting-started-site/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/dam/universal-editor-getting-started-site/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/universal-editor-getting-started-site",
+      "/content/dam/universal-editor-getting-started-site/images/products/"
+    ]
 }
